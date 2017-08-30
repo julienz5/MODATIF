@@ -9,8 +9,8 @@
     <meta name="author" content="">
 
     <title>Modatif</title>
-
-    <!-- Bootstrap core CSS .-->
+    <link rel="icon" href="favicon.ico" />
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
@@ -34,23 +34,26 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">MODATIF</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        	<img id="logonavbar" src="img/logo_vector_red.png">
+        	MODATIF
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Concept">CONCEPT</a>
+              <a class="nav-link js-scroll-trigger" href="#concept">CONCEPT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">SOUSCRIRE</a>
+              <a class="nav-link js-scroll-trigger" href="#offres">NOS OFFRES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
             </li>
           </ul>
-              <a class="nav-link js-scroll-trigger" href="#services">CONNEXION</a>
+              <a class="nav-link js-scroll-trigger" href="#">CONNEXION</a>
         </div>
       </div>
     </nav>
@@ -223,25 +226,24 @@
 
 
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="concept">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">Concept</h2>
             <hr class="light">
             <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
       </div>
     </section>
 
 
-    <section id="services">
+    <section id="offres">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Pour aller plus loin ...</h2>
             <hr class="primary">
           </div>
         </div>
@@ -250,30 +252,43 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+              <img src="img\icons\pigeon.png" class="sr-icons">
+              <h3>Free</h3>
+              <br>
+              <p class="text-muted">Inscrivez-vous pour avoir accès à un module soin gratuitement !</p>
+              <br>
+              <br>
+              <a class="btn js-scroll-trigger btn-savoirplus" href="#">S'inscrire !</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Ready to Ship</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+              <!-- <img src="img\icons\dentist.png" class="sr-icons"> -->
+              <img src="img\icons\add-icon.png" class="sr-icons">
+              <h3>Modules</h3>
+              <br>
+              <p class="text-muted">Nos proposons de nombreuses modélisations de soins dentaires supplémentaires.</p>
+              <br>
+              <a class="btn js-scroll-trigger btn-savoirplus" href="#">En savoir plus</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-              <h3>Up to Date</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
+              <!-- <img style="margin-left:10px" src="img\icons\crowned-tooth.png" class="sr-icons"> -->
+              <img src="img\icons\sunglasses.png" class="sr-icons">
+              <h3>Pro</h3>
+              <p class="text-muted">Bénéficiez de l'accès à l'ensemble de nos modélisations, enregitrez vos soins personnalisées et plus encore ! </p>
+              <br>
+              <a class="btn js-scroll-trigger btn-savoirplus" href="#">En savoir plus</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-              <h3>Made with Love</h3>
-              <p class="text-muted">You have to make your websites with love these days!</p>
+              <img src="img\icons\tooth.png" class="sr-icons">
+              <h3>Sur mesure</h3>
+              <p class="text-muted">Vous avez un projet en nécessitant un développement spécifique en tête ? On vous écoute !</p>
+              <br>
+              <a class="btn js-scroll-trigger btn-savoirplus" href="#">En savoir plus</a>
             </div>
           </div>
         </div>
@@ -282,115 +297,12 @@
 
 
 
-
-<!-- ............................................MOSAIQUE stylée......................................... -->
-<!--     <section class="p-0" id="portfolio">
-      <div class="container-fluid">
-        <div class="row no-gutter popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
-<!-- ............................................fin MOSAIQUE stylée......................................... -->
-
-
-
-
-    <div class="call-to-action bg-dark">
+<!--     <div class="call-to-action bg-dark">
       <div class="container text-center">
         <h2>Free Download at Start Bootstrap!</h2>
         <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Souscrire!</a>
       </div>
-    </div>
+    </div> -->
 
 
 
@@ -398,7 +310,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Nous contacter</h2>
             <hr class="primary">
             <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
@@ -421,11 +333,24 @@
 
 
     <footer>
-      <div class="container text-center">
-        <p>Voici du texte pour remplir le footer</p>
-        <p>Voici du texte pour remplir le footer</p>
-        <p>Voici du texte pour remplir le footer</p>
-        <p>Voici du texte pour remplir le footer</p>
+      <div class="container text-center foot">
+      	<div class="row">
+      		<div class="col-md-5">
+		        <a href="#">Nos Offres</a>
+		        <br>
+		        <a href="#">Contact</a>
+		    </div>
+      		<div class="col-md-2">
+      		<a class="js-scroll-trigger" href="#page-top">
+      			<img id="logofooter" src="img/logo_vector_blue.png">
+      		</a>
+	   		</div>
+      		<div class="col-md-5">
+      			<a href="#">L'équipe</a>
+      			<br>
+		        <a href="#">Mentions légales</a>
+	   		</div>
+	    </div>
       </div>
     </footer>
 

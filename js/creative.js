@@ -68,4 +68,14 @@
     }
   });
 
+  $("#logofooter").mouseenter(function(){    
+    console.log("ok");   
+    $(this).attr('src','img/logo_vector_red.png');      
+  });     
+  $("#logofooter").mouseleave(function(){       
+    $(this).attr('src','img/logo_vector_blue.png');      
+  });
+
+
+
 })(jQuery); // End of use strict
