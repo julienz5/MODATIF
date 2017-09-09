@@ -8,12 +8,13 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 48)
+          scrollTop: (target.offset().top - 86)
         }, 1000, "easeInOutExpo");
         return false;
       }
     }
   });
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -75,6 +76,12 @@
   $("#logofooter").mouseleave(function(){       
     $(this).attr('src','img/logo_vector_blue.png');      
   });
+
+
+
+ // Modélisation  
+
+
 
 
 
